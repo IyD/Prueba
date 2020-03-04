@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "fireChatPrueba": {
@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
             ],
             "scripts": []
           },
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fireChatPrueba"
+    }
+  },
+  "defaultProject": "fireChatPrueba",
+  "cli": {
+    "analytics": "48940373-fca1-4ba6-be26-5f7af9059b5e"
+  }
 }
